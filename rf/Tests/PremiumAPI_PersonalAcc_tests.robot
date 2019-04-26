@@ -25,7 +25,7 @@ ${replace_code}=  N/A
 ${MEP}=  http://int-mep.csint.cz:18080
 
 *** Test Cases ***
-
+aaaa
 
 ########## Personal Accounts ##########
 Accounts_TC_ListAccounts_Cust1_App1
@@ -33,7 +33,7 @@ Accounts_TC_ListAccounts_Cust1_App1
     Initializing token  Cust1  App1
     Login and receive the access token  token  &
     Run API test  ${SOAPUI_PATH}  accessToken="${accessToken}"  ..\\soapui\\Accounts-soapui-project.xml  TC_ListAccounts_Cust1_App1
-
+lorem ipsum
 Accounts_TC_ListAccounts_Cust5_App1
     [Tags]  Accounts
     Initializing token  Cust5  App1
